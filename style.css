@@ -11554,7 +11554,7 @@ textarea.form-control-lg {
 }
 
 .btn-check:checked + .btn-third, .btn-check:active + .btn-third, .btn-third:active, .btn-third.active, .show > .btn-third.dropdown-toggle {
-  color: white;
+  color: black;
   background-color: #f1d7bf;
   border-color: #f0d2b7;
 }
