@@ -11534,6 +11534,41 @@ textarea.form-control-lg {
     display: none !important;
   }
 }
+.btn-third {
+  color: #000;
+  background-color: #ffffff;
+  border-color: #eecdaf;
+}
+
+.btn-third:hover {
+  color: #000;
+  background-color: #f1d5bb;
+  border-color: #f0d2b7;
+}
+
+.btn-check:focus + .btn-third, .btn-third:focus {
+  color: #000;
+  background-color: #f1d5bb;
+  border-color: #f0d2b7;
+  box-shadow: 0 0 0 0.25rem rgba(202, 174, 149, 0.5);
+}
+
+.btn-check:checked + .btn-third, .btn-check:active + .btn-third, .btn-third:active, .btn-third.active, .show > .btn-third.dropdown-toggle {
+  color: white;
+  background-color: #f1d7bf;
+  border-color: #f0d2b7;
+}
+
+.btn-check:checked + .btn-third:focus, .btn-check:active + .btn-third:focus, .btn-third:active:focus, .btn-third.active:focus, .show > .btn-third.dropdown-toggle:focus {
+  box-shadow: 0 0 0 0.25rem rgba(202, 174, 149, 0.5);
+}
+
+.btn-third:disabled, .btn-third.disabled {
+  color: #000;
+  background-color: #eecdaf;
+  border-color: #eecdaf;
+}
+
 .frontpage {
   background-image: url("https://lh3.googleusercontent.com/iaSAkKImkF6qpKCfbgsP5CV7P_C9z8BugiDUOlaMhXuRSYop6Jl308xLXQdJaMMct83fIBjJnz5gASpY14PTPdCnns1QEtCUsDf0dDb3cCNSLUfPbCD2a-iQLXo3a0wNn0slr_eifg=w2400");
   background-size: contain;
