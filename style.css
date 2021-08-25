@@ -11433,6 +11433,15 @@ textarea.form-control-lg {
     display: none !important;
   }
 }
+.btn-dd, .btn-dd {
+  background-color: #eecdaf !important;
+}
+
+.btn-dd-active, .btn-dd:active {
+  background-color: #eead71 f !important;
+  border-color: #96500e !important;
+}
+
 .frontpage {
   background-image: url("https://lh3.googleusercontent.com/iaSAkKImkF6qpKCfbgsP5CV7P_C9z8BugiDUOlaMhXuRSYop6Jl308xLXQdJaMMct83fIBjJnz5gASpY14PTPdCnns1QEtCUsDf0dDb3cCNSLUfPbCD2a-iQLXo3a0wNn0slr_eifg=w2400");
   background-size: contain;
